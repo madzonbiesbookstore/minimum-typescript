@@ -5,3 +5,7 @@ function test(arg) {
     return arg;
 }
 exports.test = test;
+function typeError(amount) {
+    return amount ** 2;
+}
+typeError('100');
